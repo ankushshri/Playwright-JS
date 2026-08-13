@@ -18,6 +18,7 @@ class loginPage {
     async loginToApplication(username, Password) {
 
         await this.userNameInput.fill(username)
+        //
 
         await this.passwordInputBox.fill(Password)
 
